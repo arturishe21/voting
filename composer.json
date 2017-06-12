@@ -1,0 +1,21 @@
+{
+  "name": "vis/voting",
+  "description": "Voting",
+  "authors": [
+    {
+      "name": "vis",
+      "email": "artur@vis-design.com"
+    }
+  ],
+
+  "autoload": {
+    "classmap": [
+      "src/Models",
+      "src/Controllers",
+      "src/Migrations"
+    ],
+    "psr-4": {
+      "Vis\\Voting\\": "src/"
+    }
+  }
+}
