@@ -8,7 +8,7 @@ class VotingAnswers extends Model
     public $timestamps = false;
 
     protected $guarded = [];
-    
+     
     public function getPercent($sumCountVotes)
     {
         return round(($this->count_votes / $sumCountVotes) * 100);
