@@ -21,6 +21,9 @@ class ComposerStaticInita80f4c7cef9ec02367b8c014cfad9d40
     );
 
     public static $classMap = array (
+        'CreateVotingAnswersTable' => __DIR__ . '/../..' . '/src/Migrations/2015_02_22_224923_create_voting_answers.php',
+        'CreateVotingQuestionTable' => __DIR__ . '/../..' . '/src/Migrations/2015_02_22_224923_create_voting_questions.php',
+        'CreateVotingQuestionUserTable' => __DIR__ . '/../..' . '/src/Migrations/2015_02_22_224923_create_voting_questions_user.php',
         'Vis\\Voting\\VotingAnswers' => __DIR__ . '/../..' . '/src/Models/VotingAnswers.php',
         'Vis\\Voting\\VotingControllers' => __DIR__ . '/../..' . '/src/Controllers/VotingControllers.php',
         'Vis\\Voting\\VotingQuestions' => __DIR__ . '/../..' . '/src/Models/VotingQuestions.php',

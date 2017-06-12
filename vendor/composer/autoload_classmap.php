@@ -6,6 +6,9 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
+    'CreateVotingAnswersTable' => $baseDir . '/src/Migrations/2015_02_22_224923_create_voting_answers.php',
+    'CreateVotingQuestionTable' => $baseDir . '/src/Migrations/2015_02_22_224923_create_voting_questions.php',
+    'CreateVotingQuestionUserTable' => $baseDir . '/src/Migrations/2015_02_22_224923_create_voting_questions_user.php',
     'Vis\\Voting\\VotingAnswers' => $baseDir . '/src/Models/VotingAnswers.php',
     'Vis\\Voting\\VotingControllers' => $baseDir . '/src/Controllers/VotingControllers.php',
     'Vis\\Voting\\VotingQuestions' => $baseDir . '/src/Models/VotingQuestions.php',
